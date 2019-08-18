@@ -36,7 +36,6 @@ int query(int l, int r, int v)
         r--;
     }
     if(l > r) return cnt;
-
     lp = l/sz;
     rp = r/sz;
     v--;
